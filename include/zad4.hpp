@@ -5,5 +5,4 @@
 // tutaj funkcja obliczMake
 void obliczMake(const std::vector<Tagliatelle> wek)
 {
-
 }
