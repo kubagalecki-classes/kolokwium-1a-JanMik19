@@ -10,18 +10,20 @@ class Penne : public Makaron
 public:
   Penne() {}
   ~Penne() {}
-  double ileMaki(double P) const { return P; }
+  double ileMaki(double P) const { return (double)P; }
 };
 
 // tutaj definicja metody gotujMakaron
-Makaron* Makaron::gotujMakaron(const string& obj) const
+Makaron* Makaron::gotujMakaron(const std::string& obj)
 {
-  Makaron* wsk;
-
   if (obj.front() == obj.back())
-    wsk = new Tagliatelle(3.14,0.42,0.1);
+  {
+    Makaron* wsk = new Tagliatelle(3.14,0.42,0.1);
+    return wsk;
+  }
   else
-    wsk = new Penne;  
-  
-  return wsk;
+  {
+    Makaron* wsk = new Penne;
+    return wsk;
+  }
 }

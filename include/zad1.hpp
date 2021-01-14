@@ -1,8 +1,6 @@
 #include "catch.hpp"
 #include <string>
 
-using namespace std;
-
 // Zad2
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
@@ -11,7 +9,7 @@ class Makaron
 public:
   virtual ~Makaron() {}
   virtual double ileMaki(unsigned) const = 0; 
-  Makaron* gotujMakaron(const string&) const;
+  static Makaron* gotujMakaron(const std::string&);
 };
 
 // Zad1
