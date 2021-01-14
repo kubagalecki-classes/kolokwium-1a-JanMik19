@@ -1,12 +1,22 @@
 #include "catch.hpp"
+#include <string>
+
+using namespace std;
 
 // Zad2
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
+class Makaron
+{
+public:
+  virtual ~Makaron() {}
+  virtual double ileMaki(unsigned) const = 0; 
+  const Makaron* gotujMakaron(const string&);
+};
 
 // Zad1
 // tutaj definicja klasy Tagliatelle
-class Tagliatelle
+class Tagliatelle : public Makaron
 {
   double L, W, R; 
   const double C;
