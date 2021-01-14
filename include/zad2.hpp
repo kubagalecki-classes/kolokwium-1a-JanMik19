@@ -10,7 +10,7 @@ class Penne : public Makaron
 public:
   Penne() {}
   ~Penne() {}
-  double ileMaki(double P) const { return (double)P; }
+  double ileMaki(unsigned P) const { return (double)P; }
 };
 
 // tutaj definicja metody gotujMakaron
