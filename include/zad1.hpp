@@ -11,7 +11,7 @@ class Makaron
 public:
   virtual ~Makaron() {}
   virtual double ileMaki(unsigned) const = 0; 
-  const Makaron* gotujMakaron(const string&);
+  Makaron* gotujMakaron(const string&) const;
 };
 
 // Zad1
