@@ -10,5 +10,4 @@
 template<typename T>
 sortujTagliatelle()
 {
-  
 }
