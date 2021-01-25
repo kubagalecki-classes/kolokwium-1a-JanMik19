@@ -14,4 +14,4 @@ double obliczMake(const std::vector< Tagliatelle > vec)
     else if (M > 50 && M <= 100)
         throw 1.;
     return M;
-}
+}//ergregrgr
