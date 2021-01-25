@@ -3,7 +3,7 @@
 
 // Zad2
 // tutaj definicja klasy Makaron
-// BEZ definicji metody gotujMakaron (tylko z deklaracją)
+// BEZ definicji metody gotujMakaron (tylko z deklaracj
 class Makaron
 {
 public:
