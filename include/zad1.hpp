@@ -17,7 +17,7 @@ public:
 class Tagliatelle : public Makaron
 {
   double L, W, R; 
-  const double C;
+  static const double C;
 public:
   Tagliatelle() : L(0.5), W(0.5), R(0.5) {} 
   Tagliatelle(double L_, double W_, double R_) : L(L_), W(W_), R(R_) {} 
