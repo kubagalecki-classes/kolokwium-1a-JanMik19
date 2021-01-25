@@ -3,7 +3,7 @@
 #include <vector>
 
 // tutaj funkcja obliczMake
-void obliczMake(const std::vector<Tagliatelle> vec)
+double obliczMake(const std::vector<Tagliatelle> vec)
 {
     double M = 0.0;
     int    i = 1;
